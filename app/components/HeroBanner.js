@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import HeroBannerCar from '../hero-banner-car.png';
+import HeroBannerCar from '../images/hero-banner-car.png';
 
 const HeroBanner = () => {
   return (
@@ -23,12 +23,12 @@ const HeroBanner = () => {
           <hr className='mb-5 border-gray-300' />
           <div className='flex items-center space-x-4'>
             <p
-              className='inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide transition duration-200 rounded shadow-md focus:shadow-outline focus:outline-none cursor-pointer bg-[#a11315] text-white
+              className='inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide transition duration-200 rounded shadow-md focus:shadow-outline focus:outline-none cursor-pointer bg-[#ff0000] text-white
                 '
             >
               Book a Car
             </p>
-            <p className='inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide transition duration-200 focus:outline-none cursor-pointer text-[#a11315] border-b-2 border-[#a11315]'>
+            <p className='inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide transition duration-200 focus:outline-none cursor-pointer text-[#ff0000] border-b-2 border-[#ff0000]'>
               see all cars
             </p>
           </div>
@@ -40,6 +40,7 @@ const HeroBanner = () => {
             alt=''
             height={500}
             width={500}
+            priority
           />
         </div>
       </div>

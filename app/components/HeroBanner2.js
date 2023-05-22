@@ -1,14 +1,15 @@
 import Image from 'next/image';
-import HeroBannerCar from '../hero-banner-car-2.png';
+import HeroBannerCar from '../images/hero-banner-car-2.png';
 
 const Header = () => {
   return (
-    <div className='relative flex flex-col-reverse px-4 py-6 mx-auto lg:block lg:flex-col lg:py-32 xl:py-48 md:px-8 sm:max-w-xl md:max-w-full bg-[#a11315] text-white'>
+    <div className='relative flex flex-col-reverse px-4 py-6 mx-auto lg:block lg:flex-col lg:py-32 xl:py-48 md:px-8 sm:max-w-xl md:max-w-full bg-[#ff0000] text-white'>
       <div className='z-0 flex justify-center h-full -mx-4 overflow-hidden lg:pt-24 lg:pb-16 lg:pr-8 xl:pr-0 lg:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:left-0 lg:items-center'>
         <Image
           src={HeroBannerCar}
           height={500}
           width={500}
+          priority
           className='object-cover object-right w-full h-auto lg:w-auto'
           alt=''
         />

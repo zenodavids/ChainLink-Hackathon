@@ -55,7 +55,7 @@ const Navbar = () => {
           <ul className='flex items-center hidden space-x-8 lg:flex'>
             <li>
               <p
-                className={`inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide transition duration-200 rounded shadow-md focus:shadow-outline focus:outline-none cursor-pointer bg-[#a11315] text-white
+                className={`inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide transition duration-200 rounded shadow-md focus:shadow-outline focus:outline-none cursor-pointer bg-[#ff0000] text-white
                 `}
                 // ${props.walletConnected() ? '' : '' }  ====> this is inside the className
                 aria-label={
