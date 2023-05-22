@@ -32,7 +32,7 @@ const Navbar = () => {
             class='inline-flex items-center'
           >
             <span class='ml-2 text-xl font-bold tracking-wide text-[#777] uppercase'>
-              Rent Shit
+              RentStars
             </span>
           </Link>
           <ul class='flex items-center hidden space-x-8 lg:flex'>
